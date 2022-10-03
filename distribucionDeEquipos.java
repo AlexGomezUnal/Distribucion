@@ -466,7 +466,8 @@ import java.util.Scanner;
                         Order.enqueue(Order.dequeue()); 
                         Faculty.enqueue(Faculty.dequeue()); 
                     } 
-                    sort(Order); 
+                    sort(Order);
+                    sort(Ordered);
                 }   
                 Distribute(Order,Lot,Supplied);//calling function         
                  countDist++; 
